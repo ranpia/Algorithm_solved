@@ -16,7 +16,7 @@ public class Main {
 		
 		Arrays.sort(nums);
 		System.out.println(total/nums.length);
-		System.out.println(nums[2]);
+		System.out.println(nums[nums.length/2]);
 	}
 
 }
