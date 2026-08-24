@@ -10,8 +10,8 @@ class Solution {
         
         int answer = nums.length/2;
 
-        if (map.keySet().size()<answer){
-            answer = map.keySet().size();
+        if (map.size()<answer){
+            answer = map.size();
         }
 
         return answer;
